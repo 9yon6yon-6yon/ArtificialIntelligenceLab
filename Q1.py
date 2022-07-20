@@ -8,5 +8,5 @@ i = 1
 for i in range(n):
     for j in range(i+1,n):
         print (arr[i]," ",arr[j])
-    i+=1    
+    i+=1    #check
 
