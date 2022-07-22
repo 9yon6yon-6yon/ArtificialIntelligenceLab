@@ -86,7 +86,6 @@ with open("input.txt","r") as f:
 #print(destination)
 
 
-
 #adding Hurestic Value
 x2 = graph[destination[0]].x
 y2 = graph[destination[0]].y
