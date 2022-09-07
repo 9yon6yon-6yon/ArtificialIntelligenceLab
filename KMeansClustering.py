@@ -1,5 +1,3 @@
-from cProfile import label
-from turtle import color
 import numpy as np
 import matplotlib.pyplot as plt
 import random as rand
@@ -31,7 +29,7 @@ class KMC:
 
 
 obj = KMC(6)
-obj.read_data('',",")
+obj.read_data('jain_feats.txt'," ")
 obj.plot_Data()
 initial_values = obj.initial_center()
 print(initial_values)
